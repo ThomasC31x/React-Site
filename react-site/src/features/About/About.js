@@ -9,7 +9,16 @@ function About(props) {
   return (
     <div className="app">
       <h1>À propos de moi</h1>
-      <h6>Je suis Thomas Cannet, 22 ans et passionné par le developpement informatique.</h6>
+
+      <Card>
+        <Card.Header as="h5">Présentation</Card.Header>
+        <Card.Body>
+          <Card.Text>
+          Je suis Thomas Cannet, 22 ans et passionné par le developpement informatique.
+          Actuellement en alternance au sein d'Airbus SAS à Blagnac et en Master Développement Logiciel, Mobile et IoT à Ynov.
+          </Card.Text>
+        </Card.Body>
+      </Card>
 
       <Card>
         <Card.Header as="h5">Parcours scolaire</Card.Header>
