@@ -2,9 +2,10 @@ import React from 'react';
 import logo from './me.jpg';
 import cover from './cover.jpg';
 import { BrowserRouter, Route, Link } from 'react-router-dom'; 
-import Projects from './Projects.js';
-import About from './About.js';
-import Contact from './Contact.js';
+import Projects from './features/Projects/Projects.js';
+import About from './features/About/About.js';
+import Contact from './features/Contact/Contact.js';
+
 import './App.css';
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
         <Route exact path="/" component={About} />
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
+
+        
 
       </div>
     </BrowserRouter>
