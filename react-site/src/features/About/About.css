@@ -1,0 +1,17 @@
+.app {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card {
+    margin-top: 40px;
+}
+
+.list-competence {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.white {
+    color: white;
+}

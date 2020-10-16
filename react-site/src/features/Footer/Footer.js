@@ -3,8 +3,8 @@ import './Footer.css';
  
 function Footer(props) {
   return (
-    <div>
-      All right reserved
+    <div className="footer">
+      2020 - Make with React
     </div>
   )
 }

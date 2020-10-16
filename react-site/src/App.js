@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Projects from './features/Projects/Projects.js';
 import About from './features/About/About.js';
 import Contact from './features/Contact/Contact.js';
+import Footer from './features/Footer/Footer.js';
 
 import './App.css';
 
@@ -32,7 +33,7 @@ function App() {
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
 
-        
+        <Footer />
 
       </div>
     </BrowserRouter>
