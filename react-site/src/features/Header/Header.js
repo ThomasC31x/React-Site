@@ -3,6 +3,9 @@ import './Header.css';
 import logo from '../../me.jpg';
 import cover from '../../cover.jpg';
 import { Link } from 'react-router-dom'; 
+
+import github from '../icons/github.png';
+import linkedin from '../icons/linkedin.svg';
  
 function Header(props) {
   return (
@@ -20,9 +23,10 @@ function Header(props) {
             <Link to="/contact" className="item">Me contacter</Link>
         </div>
 
-        <a class="btn btn-social-icon btn-twitter">
-            <span class="fa fa-twitter"></span>
-        </a>
+        <div className="list-contact">
+            <a href="https://github.com/ThomasC31x" target="_blank"><img className="icon bg-white" src={github} alt="Github" /></a>
+            <a href="https://www.linkedin.com/in/thomascannet/" target="_blank"><img className="icon" src={linkedin} alt="Linkedin" /></a>
+        </div>
     </div>
   )
 }
