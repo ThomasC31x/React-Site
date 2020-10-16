@@ -70,10 +70,10 @@ function About(props) {
       <Card className="card">
         <Card.Header as="h5">Compétences</Card.Header>
         <Card.Body>
-          <Card.Text as="h4" className="list-competence">        
-            <Badge className="w50" variant="danger">React</Badge> 
-            <Badge className="w50" variant="danger">Slate</Badge> 
-            <Badge className="w50" variant="danger">Python</Badge>
+          <Card.Text as="h4" className="list-competencies">        
+            <Badge variant="danger">React</Badge> 
+            <Badge variant="danger">Slate</Badge> 
+            <Badge variant="danger">Python</Badge>
             <Badge variant="danger">Angular</Badge> 
             <Badge variant="danger">Java</Badge>
             <Badge variant="danger">C / SDL</Badge>
